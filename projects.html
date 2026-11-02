@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projects by Kaushik Kalsariya - Full Stack, Node.js REST APIs, and React.js web applications." />
+    <title>Projects | Kaushik Kalsariya</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Project Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+          <div class="logo">
+            <a href="./index.html">
+              <h3>Kaushik<span>.dev</span></h3>
+              <span class="logo-badge">Fresher</span>
+            </a>
+          </div>
+
+          <!-- Mobile Hamburger Toggle Button -->
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <!-- Navigation Links -->
+          <div class="nav-links" id="navLinks">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html" class="active">Projects</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Projects Section -->
+      <section class="projects-section section-padding">
+        <div class="container">
+          <div class="section-title">
+            <h2>My Projects</h2>
+            <p>Hands-on practice applications and REST APIs built with modern technologies</p>
+          </div>
+
+          <!-- Project Filter Category Buttons -->
+          <div class="project-filter">
+            <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+            <button class="filter-btn" data-filter="fullstack">Full Stack (2)</button>
+            <button class="filter-btn" data-filter="backend">Backend & APIs (2)</button>
+            <button class="filter-btn" data-filter="frontend">Frontend / React (1)</button>
+          </div>
+
+          <!-- Projects Grid Container -->
+          <div class="projects-grid">
+            <!-- Project 1: Student Record Management System -->
+            <div class="project-card" data-category="fullstack">
+              <div class="project-header-bar">
+                <span class="project-type-badge">Full Stack Application</span>
+                <i class="fa-solid fa-user-graduate" style="color: #7c3aed;"></i>
+              </div>
+              <div class="project-body">
+                <h3>Student Record Management System</h3>
+                <p>
+                  A full-stack student management application for efficiently maintaining
+                  student records and academic details. It includes complete CRUD REST APIs,
+                  MongoDB storage, and a responsive admin dashboard for adding, viewing,
+                  updating, and deleting student information.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-label">Technologies Used:</span>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Mongoose</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">React Router</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">Axios</span>
+                    <span class="tech-tag">SweetAlert2</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/kaushik2606/Student-Record-Management-System"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fa-brands fa-github"></i> View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 2: Expense Tracker Management System -->
+            <div class="project-card" data-category="fullstack">
+              <div class="project-header-bar">
+                <span class="project-type-badge">Full Stack Application</span>
+                <i class="fa-solid fa-wallet" style="color: #0d9488;"></i>
+              </div>
+              <div class="project-body">
+                <h3>Expense Tracker Management System</h3>
+                <p>
+                  A full-stack expense management application designed to help users
+                  efficiently track their income, expenses, and personal financial records.
+                  It includes secure user authentication, CRUD-based transaction handling,
+                  MongoDB data storage, and a responsive dashboard for managing spending
+                  habits and account details.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-label">Technologies Used:</span>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Mongoose</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">React Router</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">Axios</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">SweetAlert2</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/kaushik2606/Expense-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fa-brands fa-github"></i> View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 3: Agriculture Management -->
+            <div class="project-card" data-category="backend">
+              <div class="project-header-bar">
+                <span class="project-type-badge">Backend REST API</span>
+                <i class="fa-solid fa-seedling" style="color: #16a34a;"></i>
+              </div>
+              <div class="project-body">
+                <h3>Agriculture Management System</h3>
+                <p>
+                  A backend management system for maintaining farmer and farm records.
+                  Features complete CRUD REST APIs, secure user registration and login using
+                  JWT authentication, bcrypt password hashing, and email OTP verification
+                  via Nodemailer. All endpoints tested with Postman.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-label">Technologies Used:</span>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Mongoose</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Nodemailer</span>
+                    <span class="tech-tag">bcrypt</span>
+                    <span class="tech-tag">Postman</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/kaushik2606/Agriculture-Management-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fa-brands fa-github"></i> View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 4: Hospital Management -->
+            <div class="project-card" data-category="backend">
+              <div class="project-header-bar">
+                <span class="project-type-badge">Database & API</span>
+                <i class="fa-solid fa-hospital" style="color: #2563eb;"></i>
+              </div>
+              <div class="project-body">
+                <h3>Hospital Management – Patient Slot Booking API</h3>
+                <p>
+                  A backend REST API designed for managing patient registrations, doctor slot
+                  schedules, and appointment bookings. Built with Node.js and Express.js,
+                  interfacing directly with MySQL relational tables for persistent appointment data.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-label">Technologies Used:</span>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">Postman</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/kaushik2606/Hospital-Management-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fa-brands fa-github"></i> View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 5: Storewala E-Commerce -->
+            <div class="project-card" data-category="frontend">
+              <div class="project-header-bar">
+                <span class="project-type-badge">Frontend Web App</span>
+                <i class="fa-solid fa-cart-shopping" style="color: #f59e0b;"></i>
+              </div>
+              <div class="project-body">
+                <h3>Storewala – E-Commerce Product Listing</h3>
+                <p>
+                  A responsive frontend web application built in React.js that dynamically fetches
+                  products from the DummyJSON API. Displays items in a clean responsive grid and
+                  features an interactive add-to-cart counter that updates when items are added.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-label">Technologies Used:</span>
+                  <div class="tech-tags">
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Bootstrap 5</span>
+                    <span class="tech-tag">JavaScript (ES6+)</span>
+                    <span class="tech-tag">DummyJSON API</span>
+                    <span class="tech-tag">CSS3</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/kaushik2606/Storewala---E-Commerce-Product-Listing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fa-brands fa-github"></i> View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h4>Kaushik<span>.dev</span></h4>
+            <p>Fresher Full Stack Developer | Surat, Gujarat</p>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials">
+            <a href="https://github.com/kaushik2606" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="./contact.html" aria-label="Contact">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Kaushik Kalsariya. Practice Portfolio Project. Built with HTML, CSS & JavaScript.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Main JavaScript File -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

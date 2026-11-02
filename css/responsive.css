@@ -1,0 +1,229 @@
+/* ===================================================
+   Responsive Stylesheet for Mobile & Tablet Devices
+   Developer: Kaushik Kalsariya
+   =================================================== */
+
+/* ---------------------------------------------------
+   1. Tablet & Medium Screens (max-width: 992px)
+   --------------------------------------------------- */
+@media screen and (max-width: 992px) {
+  /* Hero adjustments */
+  .hero-wrapper {
+    gap: 30px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .image-frame {
+    width: 240px;
+    height: 240px;
+  }
+
+  /* Highlights grid: 2 columns on tablet */
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* About layout */
+  .about-intro-grid {
+    gap: 30px;
+  }
+
+  /* Skills grid */
+  .skills-category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact layout */
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+/* ---------------------------------------------------
+   2. Mobile Devices & Small Tablets (max-width: 768px)
+   --------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  /* Navbar Mobile Hamburger Menu */
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e2e8f0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 16px 20px;
+  }
+
+  /* When JS toggles 'active' on nav-links */
+  .nav-links.active {
+    display: block;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .nav-links ul li {
+    width: 100%;
+  }
+
+  .nav-links ul li a {
+    display: block;
+    padding: 10px 16px;
+    border-radius: 6px;
+  }
+
+  /* Hero Section Mobile */
+  .hero {
+    padding: 40px 0 35px 0;
+  }
+
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .hero-description {
+    margin: 0 auto 25px auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .image-frame {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Highlights 1 column */
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* About Page Mobile */
+  .about-intro-grid {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .about-profile-card {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
+  .about-profile-card img {
+    height: 280px;
+  }
+
+  .info-block h4 {
+    justify-content: center;
+  }
+
+  /* Education Timeline */
+  .timeline-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Skills Categories */
+  .skills-category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Projects Filter Buttons */
+  .project-filter {
+    gap: 8px;
+  }
+
+  .filter-btn {
+    font-size: 0.82rem;
+    padding: 6px 14px;
+  }
+
+  /* Projects Grid */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer Mobile */
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+}
+
+/* ---------------------------------------------------
+   3. Small Mobile Screens (max-width: 480px)
+   --------------------------------------------------- */
+@media screen and (max-width: 480px) {
+  .section-padding {
+    padding: 40px 0;
+  }
+
+  .section-title h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .image-frame {
+    width: 170px;
+    height: 170px;
+  }
+
+  .contact-info-card,
+  .contact-form-card {
+    padding: 20px;
+  }
+
+  .edu-card {
+    padding: 20px;
+  }
+}
+
+
+
